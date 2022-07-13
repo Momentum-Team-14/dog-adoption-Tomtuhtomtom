@@ -6,13 +6,17 @@ header {
     color:white;
     padding: 20px;
     line-height: 1.5;
+    /*background-color: 004175;*/
     background: linear-gradient(
         to bottom,
-        #043057 0%,
-        #043057 97%,
-        #8ACCE5 97%,
-        #8ACCE5 100%
-    );
+        #004175 0%,
+        #004175 97%,
+        #89DEEF 97%,
+        #89DEEF 100%
+    ); /* Need to figure out how to get background and border to work together, temp fix for now */
+    /*border-bottom-color: 89DEEF;
+    border-bottom-style: outset;*/
+
 }
 
 body {
@@ -21,7 +25,7 @@ body {
 
 h1 {
     margin: 20px 40px;
-    font-family: 'Oswald';
+    font-family: 'Open Sans'; /* could be unnecessary */
     font-style: normal;
     font-size: 1.3rem;
 }
@@ -30,3 +34,8 @@ p {
     margin: 5px 40px;
     font-size: 0.8rem;
 }
+
+.first {
+    margin: 7px 40px;
+    width:30%;
+} /* do for each picture or find a way to select all in one selector */
