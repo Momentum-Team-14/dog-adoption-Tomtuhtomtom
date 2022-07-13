@@ -1,0 +1,16 @@
+header {
+    font-size: 2rem;
+    font-family:'Open Sans';
+    font-style:bold;
+    font-weight:800;
+    color:white;
+    padding:30px;
+    line-height:1.5;
+    background: linear-gradient(
+        to bottom,
+        #043057 0%,
+        #043057 98%,
+        #32A1CE 98%,
+        #32A1CE 100%
+    );
+}
