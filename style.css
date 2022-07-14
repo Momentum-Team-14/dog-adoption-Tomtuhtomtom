@@ -6,16 +6,13 @@ header {
     color:white;
     padding: 2rem;
     line-height: 1.5;
-    /*background-color: 004175;*/
     background: linear-gradient(
         to bottom,
         #004175 0%,
         #004175 97%,
         #89DEEF 97%,
         #89DEEF 100%
-    ); /* Need to figure out how to get background and border to work together, temp fix for now */
-    /*border-color: 89DEEF;
-    border-bottom: outset;*/
+    );
 
 }
 
@@ -25,8 +22,8 @@ body {
 }
 
 h1 {
-    padding: 0 2rem; /* margin and option? */
-    font-family: 'Open Sans'; /* could be unnecessary */
+    padding: 0 2rem;
+    font-family: 'Open Sans';
     font-style: normal;
     font-size: 1.3rem;
 }
