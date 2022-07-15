@@ -73,6 +73,7 @@ ul {
 .donate {
     background: url('starter_files/images/donate.jpg');
     background-size: cover;
+    background-position: center;
     height: 12rem;
     width: 100%;
     display: flex;
@@ -85,6 +86,7 @@ ul {
 .volunteer {
     background: url('starter_files/images/volunteer.jpg');
     background-size: cover;
+    background-position: center;
     height: 12rem;
     width: 100%;
     display: flex;
@@ -96,6 +98,7 @@ ul {
 .location {
     background: url('starter_files/images/location.png');
     background-size: cover;
+    background-position: center;
     height: 12rem;
     width: 100%;
     display: flex;
